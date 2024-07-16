@@ -1,3 +1,4 @@
+"use strict";
 function calculator(x, y, type) {
     if (type === "sum") {
         return x + y;
@@ -15,5 +16,5 @@ function calculator(x, y, type) {
         return -1;
     }
 }
-var z = calculator(4, 2, "sum");
+let z = calculator(4, 2, "sum");
 console.log(z);
