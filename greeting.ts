@@ -3,11 +3,11 @@ interface Person{
     age:number;
 }
 
-function greet(person: Person){
+function greet2(person: Person){
     console.log(`Hello ${person.name} your age is ${person.age}`)
 }
 
-greet({
+greet2({
     name:'Hugh',
     age:45
 })
